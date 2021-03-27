@@ -1,0 +1,121 @@
+[INFO] 00:03:01 ComputerLocker: run now... .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:03:01 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: run now... .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:20 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: run now... .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:05:45 ComputerLocker: add schedule .
+[INFO] 00:06:00 ComputerLocker: time is up, index: 8, start checking... .
+[INFO] 00:06:00 CameraManager: capturing one image... .
+[INFO] 00:06:00 ComputerLocker: Face detected .
+[INFO] 00:06:00 ComputerLocker: detect user_id-47 .
+[INFO] 00:06:00 ComputerLocker: user_id-47 is in the band_list, going into sleep... .
+[INFO] 00:06:58 ComputerLocker: break end now .
+[INFO] 00:09:59 ComputerLocker: run now... .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:09:59 ComputerLocker: add schedule .
+[INFO] 00:10:00 ComputerLocker: time is up, index: 8, start checking... .
+[INFO] 00:10:00 CameraManager: capturing one image... .
+[INFO] 00:10:00 ComputerLocker: Face detected .
+[INFO] 00:10:00 ComputerLocker: detect user_id-47 .
+[INFO] 00:10:00 ComputerLocker: user_id-47 is in the band_list, going into sleep... .
+[INFO] 00:10:22 ComputerLocker: break end now .
+[INFO] 00:14:53 ComputerLocker: run now... .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:14:53 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: run now... .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:16:52 ComputerLocker: add schedule .
+[INFO] 00:17:00 ComputerLocker: time is up, index: 8, start checking... .
+[INFO] 00:17:00 CameraManager: capturing one image... .
+[INFO] 00:17:00 ComputerLocker: Face detected .
+[INFO] 00:17:00 ComputerLocker: detect user_id-47 .
+[INFO] 00:17:00 ComputerLocker: user_id-47 is in the band_list, going into sleep... .
+[INFO] 00:17:57 CameraManager: capturing one image... .
+[INFO] 00:17:58 ComputerLocker: Face detected .
+[INFO] 00:17:58 ComputerLocker: detect user_id-47 .
+[INFO] 00:17:58 ComputerLocker: user_id-47 is in the band_list, going into sleep... .
+[INFO] 00:53:55 ComputerLocker: run now... .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:53:55 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: run now... .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 00:58:44 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: run now... .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:00:43 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: run now... .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
+[INFO] 01:04:15 ComputerLocker: add schedule .
