@@ -50,7 +50,8 @@ class ComputerLocker:
 
         for i in range(0, len(self.break_timepoint)):
             self.log.add_log("ComputerLocker: add schedule", 1)
-            schedule.every().day.at(self.break_timepoint[i][0]).do(lambda: self.time_up(i))
+            job = lambda: self.sleep_time_up() # lambda: self.time_up(i)
+            schedule.every().day.at(self.break_timepoint[i][0]).do(job)
 
         while True:
             schedule.run_pending()
@@ -64,6 +65,8 @@ class ComputerLocker:
         """
         self.log.add_log("ComputerLocker: time is up, index: %s, start checking..." % index, 1)
 
+        self.log.add_log("ComputerLocker: time is up, index: %s, start checking..." % index, 1)
+
         while True:
             self.camera_manager.capture_image()
 
@@ -74,31 +77,38 @@ class ComputerLocker:
                 print(detect_res)
                 raise KeyError
 
-            while True:
-                if face_num == 0:
-                    self.log.add_log("ComputerLocker: Face not detected", 1)
-                else:
-                    self.log.add_log("ComputerLocker: Face detected", 1)
+            if face_num == 0 or face_num is None:
+                self.log.add_log("ComputerLocker: Face not detected", 1)
+                break
+            else:
+                self.log.add_log("ComputerLocker: Face detected", 1)
+
+                search_res = self.face_reg.face_search(self.face_reg.read_img("img.jpg"))
+                try:
+                    user_id = search_res["result"]["user_list"][0]["user_id"]
+                    self.log.add_log("ComputerLocker: detect user_id-%s" % user_id, 1)
+                except:
+                    self.log.add_log("ComputerLocker: error with search result", 1)
+                    print(search_res)
+                    raise KeyError
+
+                if int(user_id) in self.band_list["inBreak"]:
+                    self.log.add_log("ComputerLocker: user_id-%s is in the band_list, going into sleep..." % user_id, 1)
+                    os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
+
+                print("end_timepint", self.break_timepoint[index][1])
+                if int(self.log.get_formatted_time().replace(":", "")) > int(
+                        self.break_timepoint[index][1].replace(":", "")):
+                    self.log.add_log("ComputerLocker: break end now", 1)
                     break
 
-            search_res = self.face_reg.face_search(self.face_reg.read_img("img.jpg"))
-            try:
-                user_id = search_res["result"]["user_list"][0]["user_id"]
-                self.log.add_log("ComputerLocker: detect user_id-%s" % user_id, 1)
-            except:
-                self.log.add_log("ComputerLocker: error with search result", 1)
-                print(search_res)
-                raise KeyError
-
-            if int(user_id) in self.band_list["inBreak"]:
-                self.log.add_log("ComputerLocker: user_id-%s is in the band_list, going into sleep..." % user_id, 1)
-                os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
-
-            print("end_timepint", self.break_timepoint[index][1])
-            if int(self.log.get_formatted_time().replace(":", "")) > int(self.break_timepoint[index][1].replace(":", "")):
-                self.log.add_log("ComputerLocker: break end now", 1)
-                break
             time.sleep(30)
+
+    def sleep_time_up(self):
+
+        time.sleep(90)
+        self.log.add_log("ComputerLocker: time is up, fall sleep...", 1)
+        os.system("rundll32 powrprof.dll,SetSuspendState")
 
 
 
