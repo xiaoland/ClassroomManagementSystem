@@ -4,10 +4,12 @@
 # description: The Main Part of computer locker
 
 from base_ai_abilites.face_recognization import FaceReg
+from base_ai_abilites.tts import BaiduTts
 from base_device_manager.camera import CameraManager
-# from tkinter import *
-# import threading
 
+from ctypes import cast, POINTER
+from comtypes import CLSCTX_ALL
+from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 import json
 import schedule
 import os
@@ -21,8 +23,11 @@ class ComputerLocker:
         self.log = log
         self.camera_manager = CameraManager(log)
         self.face_reg = FaceReg("file_path", log)
-        # self.root = Tk()
-        # self.root.withdraw()
+        self.tts = BaiduTts()
+
+        self.devices = AudioUtilities.GetSpeakers()
+        self.interface = self.devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
+        self.volume = cast(self.interface, POINTER(IAudioEndpointVolume))
 
         self.band_list = json.load(open("./data/json/band_to_use_computer_list.json", "r", encoding="utf-8"))
 
@@ -106,8 +111,12 @@ class ComputerLocker:
 
     def sleep_time_up(self):
 
+        self.log.add_log("ComputerLocker: time is up, do job", 1)
         time.sleep(90)
-        self.log.add_log("ComputerLocker: time is up, fall sleep...", 1)
+
+        self.volume.SetMute(0, None)
+        self.volume.SetMasterVolumeLevel(0.0, None)
+        self.tts.start("Warning! time is up, gonna get into sleep mode in three seconds, 3,, 2,, 1")
         os.system("rundll32 powrprof.dll,SetSuspendState")
 
 
