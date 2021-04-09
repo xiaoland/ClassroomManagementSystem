@@ -21,7 +21,7 @@ class ComputerLocker:
     def __init__(self, log):
 
         self.log = log
-        self.camera_manager = CameraManager(log)
+        # self.camera_manager = CameraManager(log)
         self.face_reg = FaceReg("file_path", log)
         self.tts = BaiduTts()
 

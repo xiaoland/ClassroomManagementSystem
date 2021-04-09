@@ -5,6 +5,7 @@
 
 import schedule
 import json
+import time
 from base_ai_abilites.tts import BaiduTts
 
 
@@ -44,14 +45,15 @@ class DailyAutoManagementSystem:
         self.log.add_log("DailyAutoManagementSystem: p_t: %s, index: %s is up" % (point_type, index), 1)
 
         if time_part == "afternoon":
-            index+=
+            index+=7
 
-        if point_type == "class_on" and index != 0:
-            class_name = self.daily_schedule["classArrangement"][self.log.get_weekday()][index]
+        class_name = self.daily_schedule["classArrangement"][self.log.get_weekday()][index]
+        if point_type == "class_on" and index not in [0, 10]:
             if class_name == "历史":
                 self.tts.start("哦吼吼吼！这不是范老师吗，欢迎欢迎！——同学们，——起立！")
         elif point_type == "class_off":
-            pass
-
+            if class_name not in ["体育", "自习", "心理", "信息"]:
+                time.sleep(80)
+                self.tts.start("老师辛苦啦！See you next time!")
 
 
