@@ -20,3 +20,25 @@
 [INFO] 00:36:27 DailyAutoManagementSystem: add afternoon schedule .
 [INFO] 00:36:27 DailyAutoManagementSystem: add afternoon schedule .
 [INFO] 00:36:27 DailyAutoManagementSystem: add afternoon schedule .
+[INFO] 00:37:27 ClassroomManagementSystem: run the system .
+[INFO] 00:37:27 ComputerLocker: run now... .
+[INFO] 00:37:27 DailyAutoManagementSystem: start .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add morning schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add morning schedule .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add morning schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add morning schedule .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add morning schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add morning schedule .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 ComputerLocker: add schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add morning schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add afternoon schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add afternoon schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add afternoon schedule .
+[INFO] 00:37:27 DailyAutoManagementSystem: add afternoon schedule .
