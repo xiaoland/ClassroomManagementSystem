@@ -3,12 +3,20 @@
 # date: 2021/03/27
 # description: run different part files
 
-from computer_locker import main
+from tkinter import *
+
+from computer_locker.main import ComputerLocker
+from arrangement_system.main import RandomDraw
 from log import Log
 
-log = Log()
-computer_locker = main.ComputerLocker(log)
 
-if __name__ == "__main__":
-    computer_locker.run()
+class ClassroomManagementSystsem:
+
+    def __init__(self):
+
+        self.log = Log()
+
+        self.computer_locker = ComputerLocker(self.log)
+        self.random_draw = RandomDraw(self.log)
+
 

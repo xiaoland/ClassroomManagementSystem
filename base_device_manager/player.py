@@ -5,13 +5,18 @@
 
 import pyaudio
 import wave
+from ctypes import cast, POINTER
+from comtypes import CLSCTX_ALL
+from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 
 
 class Player:
 
     def __init__(self):
-        
-        pass
+
+        self.devices = AudioUtilities.GetSpeakers()
+        self.interface = self.devices.Activate(IAudioEndpointVolume._iid_, CLSCTX_ALL, None)
+        self.volume = cast(self.interface, POINTER(IAudioEndpointVolume))
 
     def play(self, fp): # 一定要关掉类防止占用
 
@@ -52,3 +57,12 @@ class Player:
         print("Player: Now playing say.wav")
         self.play(r"./data/audio/say.wav")
         print("Player: Playing end")
+
+    def volume_on(self):
+
+        """
+        打开声音
+        :return:
+        """
+        self.volume.SetMute(0, None)
+        self.volume.SetMasterVolumeLevel(0.0, None)

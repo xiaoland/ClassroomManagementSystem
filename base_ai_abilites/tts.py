@@ -77,6 +77,7 @@ class BaiduTts:
             print("BaiduTts: tts requested success")
             with open("./data/audio/say.wav", "wb+") as f:
                 f.write(result_str)
+            self.player.volume_on()
             self.player.say()
             return True
         else:

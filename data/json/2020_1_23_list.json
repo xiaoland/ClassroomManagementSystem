@@ -1,0 +1,338 @@
+{
+	"1": {
+		"class": 23,
+		"log": 1,
+		"name": "蔡钰婷",
+		"gender": "女"
+	},
+	"2": {
+		"class": 23,
+		"log": 2,
+		"name": "陈汇朋",
+		"gender": "男"
+	},
+	"3": {
+		"class": 23,
+		"log": 3,
+		"name": "陈妙仪",
+		"gender": "女"
+	},
+	"4": {
+		"class": 23,
+		"log": 4,
+		"name": "陈妙莹",
+		"gender": "女"
+	},
+	"5": {
+		"class": 23,
+		"log": 5,
+		"name": "阵铭乐",
+		"gender": "男"
+	},
+	"6": {
+		"class": 23,
+		"log": 6,
+		"name": "陈如意",
+		"gender": "女"
+	},
+	"7": {
+		"class": 23,
+		"log": 7,
+		"name": "陈颖诗",
+		"gender": "女"
+	},
+	"8": {
+		"class": 23,
+		"log": 8,
+		"name": "陈宇飞",
+		"gender": "女"
+	},
+	"9": {
+		"class": 23,
+		"log": 9,
+		"name": "陈雨婷",
+		"gender": "女"
+	},
+	"10": {
+		"class": 23,
+		"log": 10,
+		"name": "陈子浩",
+		"gender": "男"
+	},
+	"11": {
+		"class": 23,
+		"log": 11,
+		"name": "陈梓澄",
+		"gender": "女"
+	},
+	"12": {
+		"class": 23,
+		"log": 12,
+		"name": "丁紫祎",
+		"gender": "女"
+	},
+	"13": {
+		"class": 23,
+		"log": 13,
+		"name": "冯朝阳",
+		"gender": "男"
+	},
+	"14": {
+		"class": 23,
+		"log": 14,
+		"name": "何君儀",
+		"gender": "女"
+	},
+	"15": {
+		"class": 23,
+		"log": 15,
+		"name": "黄海琳",
+		"gender": "女"
+	},
+	"16": {
+		"class": 23,
+		"log": 16,
+		"name": "黄进达",
+		"gender": "男"
+	},
+	"17": {
+		"class": 23,
+		"log": 17,
+		"name": "黄石凤",
+		"gender": "女"
+	},
+	"18": {
+		"class": 23,
+		"log": 18,
+		"name": "黄思哲",
+		"gender": "女"
+	},
+	"19": {
+		"class": 23,
+		"log": 19,
+		"name": "黄志垲",
+		"gender": "男"
+	},
+	"20": {
+		"class": 23,
+		"log": 20,
+		"name": "李嘉耀",
+		"gender": "男"
+	},
+	"21": {
+		"class": 23,
+		"log": 21,
+		"name": "李长春",
+		"gender": "男"
+	},
+	"22": {
+		"class": 23,
+		"log": 22,
+		"name": "粱凯轩",
+		"gender": "男"
+	},
+	"23": {
+		"class": 23,
+		"log": 23,
+		"name": "梁绮欣",
+		"gender": "女"
+	},
+	"24": {
+		"class": 23,
+		"log": 24,
+		"name": "梁晓彤",
+		"gender": "女"
+	},
+	"25": {
+		"class": 23,
+		"log": 25,
+		"name": "廖澄朗",
+		"gender": "男"
+	},
+	"26": {
+		"class": 23,
+		"log": 26,
+		"name": "林俊彦",
+		"gender": "男"
+	},
+	"27": {
+		"class": 23,
+		"log": 27,
+		"name": "刘宸炘",
+		"gender": "女"
+	},
+	"28": {
+		"class": 23,
+		"log": 28,
+		"name": "刘思琴",
+		"gender": "女"
+	},
+	"29": {
+		"class": 23,
+		"log": 29,
+		"name": "罗琪",
+		"gender": "男"
+	},
+	"30": {
+		"class": 23,
+		"log": 30,
+		"name": "罗梓程",
+		"gender": "女"
+	},
+	"31": {
+		"class": 23,
+		"log": 31,
+		"name": "欧佩琪",
+		"gender": "女"
+	},
+	"32": {
+		"class": 23,
+		"log": 32,
+		"name": "潘启隆",
+		"gender": "男"
+	},
+	"33": {
+		"class": 23,
+		"log": 33,
+		"name": "潘腾达",
+		"gender": "男"
+	},
+	"34": {
+		"class": 23,
+		"log": 34,
+		"name": "王海宁",
+		"gender": "女"
+	},
+	"35": {
+		"class": 23,
+		"log": 35,
+		"name": "王孜瑄",
+		"gender": "女"
+	},
+	"36": {
+		"class": 23,
+		"log": 36,
+		"name": "吴佳陈",
+		"gender": "立"
+	},
+	"37": {
+		"class": 23,
+		"log": 37,
+		"name": "吴凯晨",
+		"gender": "男"
+	},
+	"38": {
+		"class": 23,
+		"log": 38,
+		"name": "吴越",
+		"gender": "男"
+	},
+	"39": {
+		"class": 23,
+		"log": 39,
+		"name": "夏艺珉",
+		"gender": "女"
+	},
+	"40": {
+		"class": 23,
+		"log": 40,
+		"name": "冼俊杰",
+		"gender": "男"
+	},
+	"41": {
+		"class": 23,
+		"log": 41,
+		"name": "肖悦尧",
+		"gender": "女"
+	},
+	"42": {
+		"class": 23,
+		"log": 42,
+		"name": "许多",
+		"gender": "男"
+	},
+	"43": {
+		"class": 23,
+		"log": 43,
+		"name": "杨海锋",
+		"gender": "男"
+	},
+	"44": {
+		"class": 23,
+		"log": 44,
+		"name": "杨理明",
+		"gender": "男"
+	},
+	"45": {
+		"class": 23,
+		"log": 45,
+		"name": "杨泳楠",
+		"gender": "女"
+	},
+	"46": {
+		"class": 23,
+		"log": 46,
+		"name": "叶思齐",
+		"gender": "男"
+	},
+	"47": {
+		"class": 23,
+		"log": 47,
+		"name": "袁翊闳",
+		"gender": "男"
+	},
+	"48": {
+		"class": 23,
+		"log": 48,
+		"name": "曾湘贤",
+		"gender": "男"
+	},
+	"49": {
+		"class": 23,
+		"log": 49,
+		"name": "翟文星",
+		"gender": "男"
+	},
+	"50": {
+		"class": 23,
+		"log": 50,
+		"name": "赵晨晓",
+		"gender": "女"
+	},
+	"51": {
+		"class": 23,
+		"log": 51,
+		"name": "赵一元",
+		"gender": "男"
+	},
+	"52": {
+		"class": 23,
+		"log": 52,
+		"name": "郑诺衡",
+		"gender": "女"
+	},
+	"53": {
+		"class": 23,
+		"log": 53,
+		"name": "郑镇城",
+		"gender": "男"
+	},
+	"54": {
+		"class": 23,
+		"log": 54,
+		"name": "周畅",
+		"gender": "男"
+	},
+	"55": {
+		"class": 23,
+		"log": 55,
+		"name": "周梽杰",
+		"gender": "男"
+	},
+	"56": {
+		"class": 23,
+		"log": 56,
+		"name": "张卓儿",
+		"gender": "男"
+	}
+}

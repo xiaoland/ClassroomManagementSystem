@@ -56,6 +56,16 @@ class Log:
         """
         return time.strftime("%H:%M:%S")
 
+    def get_weekday(self):
+
+        """
+        获取今天星期几
+        :return:
+        """
+        return datetime.datetime(datetime.datetime.now().year,
+                                 datetime.datetime.now().month,
+                                 datetime.datetime.now().day).strftime("%A")
+
     def add_log(self, content, level, is_print=True, is_period=True):
 
         """
